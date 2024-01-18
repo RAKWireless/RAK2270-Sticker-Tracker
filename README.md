@@ -19,3 +19,7 @@ The RAK2270 is desiged using Cadence Allegro EDA software. We provided Cadence c
 ### Software
 
 The main chip used on the RAK2270 is the WisDuo Module RAK3172-SiP/RAK3172LP-SiP (pin-to-pin and software compatible). This chip has STM32WL SoC which is a combination of MCU and LoRa/SubGhz transceiver. The firmware written on this is based on [RUI3](https://docs.rakwireless.com/RUI3/). You can start creating your own firmware using this [RAK3172-SiP guide](https://docs.rakwireless.com/Product-Categories/WisDuo/RAK3172-SiP/Quickstart/#rak3172-sip-as-a-stand-alone-device-using-rui3).
+
+## Direct order on JLCPCB
+
+RAKwireless and JLCPCB collaborate together so that you can order directly a RAK2270 with complete components from JLCPCB. You just have to use [this link](https://cart.jlcpcb.com/quote/?from=rak&fileUrl=https%3A%2F%2Fs3.eu-central-1.amazonaws.com%2Frakwireless-downloads-center-prod%2FLoRa%2FRAK2270%2Fjlcpcb%2FGERBER_FPC_RAK2270.zip&bomUrl=https%3A%2F%2Fs3.eu-central-1.amazonaws.com%2Frakwireless-downloads-center-prod%2FLoRa%2FRAK2270%2Fjlcpcb%2FBOM_PCB_RAK2270.xlsx&cplUrl=https%3A%2F%2Fs3.eu-central-1.amazonaws.com%2Frakwireless-downloads-center-prod%2FLoRa%2FRAK2270%2Fjlcpcb%2FPLACEMENT_FPC_RAK2270.xlsx) and just proceed each step of the order. The files will be automatically uploaded as you go on each step. This makes ordering of RAK2270 directly from JLCPCB easier and faster.
