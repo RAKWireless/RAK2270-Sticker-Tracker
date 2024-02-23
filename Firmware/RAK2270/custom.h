@@ -5,7 +5,7 @@
 //Version string
 #define FW_VERSION    "1.1.0"
 #define CUSTOM_MODEL  "RAK2270"
-#define CUSTOMER      "Standard"
+#define CUSTOMER      "Generic"
 #define CUSTOME_VER   CUSTOM_MODEL"_"FW_VERSION"_"CUSTOMER
 
 //the channel for Cayenne LPP
