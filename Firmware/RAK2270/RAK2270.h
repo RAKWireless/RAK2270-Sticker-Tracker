@@ -12,12 +12,25 @@
 
 #include <Arduino.h>
 
-void period_handler(void);
+typedef enum
+{
+  ACTIVATE_STAGE = 0x0,
+  JOIN_STAGE = 0x1,
+  PERIODIC_UPLINK_STAGE = 0x2,
+} SYSTEM_STAGE_t;
 
-/*
- * For Test and Debug
- */
-#define ENABLE_TEMPERTURE_TEST      (0)
-#define ENABLE_FACTORY_MODE_SLEEP   (1)
+uint8_t get_system_stage();
+void goto_join_stage();
+void goto_periodic_uplink_stage();
+void return_to_join_stage();
+void join_handler(void);
+void periodic_uplink_handler(void);
+
+
+#define TIMER_PERIODIC_UPLINK   RAK_TIMER_0
+#define TIMER_MD_SILENT_PERIOD  RAK_TIMER_1
+#define TIMER_DOWNLINK_CHECK    RAK_TIMER_2
+
+#define ACTIVATE_DEBOUNCE_TIMEOUT 5000
 
 #endif
